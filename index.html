@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+ body {
+  font-family: 'Cormorant Garamond', serif;
+
+}
+    </style>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>專案作品集</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+       <nav class="navbar navbar-expand-lg navbar-dark py-4" style="background-color: #250101;">
+  <div class="container">
+    <a class="navbar-brand" href="./index.html">My Project</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" 
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+        <!-- 🟢 首頁有連結 + 下拉選單 -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="./index.html" id="navbarDropdown" 
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            首頁
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#edu-text">學經歷</a></li>
+            <li><a class="dropdown-item" href="#cert-text">證照</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./project.html">程式作品</a>
+        </li>
+
+        <li class="nav-item">
+<a class="nav-link" href="mailto:catherinets064@gmail.com">
+  <i class="bi bi-envelope-fill"></i> Contact
+</a>
+
+        </li>
+
+                <li class="nav-item">
+<a class="nav-link" href="https://www.linkedin.com/in/%E6%84%B7%E8%8A%B3-%E8%94%A1-974232359/" target="_blank">
+  <i class="fab fa-linkedin"></i> LinkedIn
+</a>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+        <!-- Header - set the background image for the header in the line below-->
+<header class="py-2 bg-image-full" 
+        style="background-image: url('../cafedeparis.avif')">
+
+  <div class="container my-5">
+    <div class="row align-items-center">
+      
+      <!-- 左邊大頭照 -->
+      <div class="col-md-3 text-center text-md-start">
+        <img class="img-fluid rounded-circle mb-4" 
+             src="../大頭照.jpg" 
+             alt="mypic"
+             style="max-width:200px; object-fit:cover;">
+      </div>
+      
+      <!-- 右邊介紹文字 -->
+      <div class="col-md-9 text-white">
+        <h1 class="fs-3 fw-bolder">蔡愷芳</h1>
+        <h2>Katherine Tsai</h2>
+       <p class="text-white mb-2" style="line-height: 2;">
+          我是蔡愷芳，畢業於國立成功大學企業管理研究所，具備跨領域能力，專長涵蓋永續、行銷企劃與策略規劃。在學術研究外，我曾於集仕多 AI 新創公司實習，協助製作解決方案簡報並隨老闆參與 2024 TOKYO COMPUTING DAY，深入研究日本新創市場，結合科技創新與綠能數位，並展現流利英語及跨文化溝通能力，成功拓展國際人脈。
+
+2025 年我於資展國際全端班接受程式語言訓練，專注於 HTML、CSS、JavaScript、jQuery 與 Bootstrap 進行前端開發，並以 ASP.NET Core 搭配 SQL Server 建構後端，完成系統整合與專案製作，能提供穩定且安全的使用者體驗。這段歷程讓我兼具商管思維與程式開發能力，能在科技產業中靈活結合策略與技術，推動創新專案發展。<br>
+          
+        </p>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+        <!-- Timeline 區塊：工作經歷 + 學歷 -->
+<section class="py-5 bg-light">
+  <div class="container my-5" id="edu-text">
+    <div class="row">
+      
+      <!-- 工作經歷 Timeline -->
+      <div class="col-md-6">
+        <h2 class="mb-5 fw-bold text-center" style="color: rgb(54, 1, 1);">工作經歷 Job Experience </h2>
+        
+        <div class="timeline">
+
+          <!-- 節點 1 -->
+          <div class="row mb-5 align-items-center">
+            <div class="col-md-3  timeline-item text-center">
+              <div class="logo-frame">
+                <img src="../ispan.jpg" 
+                     alt="資展國際 Logo" 
+                     class="rounded-circle"
+                     style="width:120px; height:120px; object-fit:cover;">
+              </div>
+            </div>
+            <div class="timeline-content col-md-9">
+              <h4>2025.6~2025.11 <br><br>資展國際 全端工程師訓練班</h4>
+              <p>
+                <ul>
+                  <li>學習C#語言，結合HTML、CSS、JavaScript、Bootstrap 等前端技術，搭配 ASP.NET Core框架 與 SQL Server 完成全端網頁專案。</li>
+                  <li>參與團隊專案，負責訂單管理與購物車模組。</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+
+          <!-- 節點 2 -->
+          <div class="row mb-5 align-items-center">
+            <div class="col-md-3 timeline-item text-center">
+              <div class="logo-frame">
+                <img src="../E.SUN_Bank.svg.png" 
+                     alt="玉山銀行 Logo"  class="rounded-circle"
+                     style="width:120px; height:120px; object-fit:cover;">
+              </div>
+            </div>
+            <div class=" timeline-content col-md-9">
+              <h4>2024.8~2025.3<br><br>玉山銀行 法人金融中小企業組</h4>
+              <ul>
+                <li>分析產業趨勢，專注於中部工具機以及太陽能面板相關產業</li>
+                <li>與企業主進行日常業務洽談以及關係維繫</li>
+                <li>解讀財務報表並完成徵信報告</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 節點 3 -->
+          <div class="row mb-5 align-items-center">
+            <div class="col-md-3 timeline-item text-center">
+              <div class="logo-frame">
+                <img src="../c67-img-20220322-04-40.png" 
+                     alt="集仕多 Logo" class="img-fluid w-100">
+              </div>
+            </div>
+            <div class=" timeline-content col-md-9">
+              <h4>2023.6~2024.5<br><br>集仕多股份有限公司 行銷企劃實習</h4>
+              <ul>
+                <li>AI技術服務應用企劃案撰寫(企業、政府)</li>
+                <li>公司產品服務設計(AI廣告自動投放、AI主播)</li>
+                <li>AI國際趨勢與市場需求簡報製作</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 學歷 Timeline -->
+      <div class="col-md-6">
+        <h2 class="mb-5 fw-bold text-center" style="color: rgb(65, 5, 5);">學歷 Education</h2>
+        <div class="timeline">
+
+          <!-- 節點 1 -->
+          <div class="row mb-5 align-items-center">
+            <div class="col-md-3  timeline-item text-center">
+              <div class="logo-frame">
+                <img src="../ncku.png" 
+                     alt="資展國際 Logo" 
+                     class="rounded-circle"
+                     style="width:120px; height:120px; object-fit:cover;">
+              </div>
+            </div>
+            <div class="timeline-content col-md-9">
+              <h4>2022.9~2024.6 <br><br>國立成功大學 企業管理碩士</h4>
+               <ul>
+                <li>論文題目:真誠領導對領導成員交換關係、員工敬業度與員工忠誠度之影響</li>
+                <li>擔任大學部助教與日碩研究助理</li>
+                <li>專精營運管理模組</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 節點 2 -->
+          <div class="row mb-5 align-items-center">
+            <div class="col-md-3 timeline-item text-center">
+              <div class="logo-frame">
+                <img src="../ncu.jpg" 
+                     alt="玉山銀行 Logo"  class="rounded-circle"
+                     style="width:120px; height:120px; object-fit:cover;">
+              </div>
+            </div>
+            <div class=" timeline-content col-md-9">
+              <h4>2018.9~2022.6<br><br>國立中央大學 法文系學士</h4>
+              <ul>
+                <li>DELF B1</li>
+                <li>修習經濟系多門課程涵蓋個總經與國際金融</li>
+                <li>法文系學會財務長</li>
+                
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section style="background-color:#250101; margin:0; padding:0;" id="cert-text">
+  <!-- 標題區背景圖 -->
+  <div style="background-image: url('../palace.jpg'); 
+              background-size: cover; background-position:center; padding:60px 0; margin:0;">
+    <h2 class="mb-0 fw-bold text-center" style="color:#efeae7;">證照與證明</h2>
+    <h2 class="mb-0 fw-bold text-center" style="color:#f1efee;">Certificates</h2>
+  </div>
+
+  <!-- 內容：左圖右文 -->
+  <div class="container py-5">
+    <div class="row align-items-center">
+      
+      <!-- 左邊 carousel -->
+      <div class="col-md-6 mb-10 mb-md-0">
+        <div class="d-flex justify-content-center">
+          <div class="carousel-container position-relative">
+            <div class="carousel" id="carousel">
+              <img src="../delf B1.jpg" style="transform: rotateY(0deg) translateZ(400px);" alt="1">
+              <img src="../TOEIC.jpg" style="transform: rotateY(60deg) translateZ(400px);" alt="2">
+              <img src="../sql-certificate.jpg" style="transform: rotateY(120deg) translateZ(400px);" alt="3">
+              <img src="../永續管理.jpg" style="transform: rotateY(180deg) translateZ(400px);" alt="4">
+              <img src="../鐵人完賽證書 (1).png" style="transform: rotateY(240deg) translateZ(400px);" alt="5">
+            </div>
+            <button class="btn prev">&#10094;</button>
+            <button class="btn next">&#10095;</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 右邊文字 -->
+<div class="col-md-6 d-flex justify-content-end">
+  <div class="text-box" style="max-width:500px;">
+        
+        <h4>
+          語文類證照：</h4>
+          <p> -TOEIC 850分<br>
+          -DELF B1 法語證照。<br></p>
+         
+        
+        <br>
+         <h4>
+          專業類證照：</h4>
+          <p>-永續管理師證照</p>
+          
+          
+          <br>
+           <h4>
+          程式類證照： </h4>
+          <p>-SQL完課證明<br>
+          -六角學院完課證明</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <script>
+    const carousel = document.getElementById("carousel");
+    let angle = 0;
+    const step = 72; // 每張間隔 360/5 = 72度
+
+    document.querySelector(".next").addEventListener("click", () => {
+      angle -= step;
+      carousel.style.transform = `rotateY(${angle}deg)`;
+    });
+
+    document.querySelector(".prev").addEventListener("click", () => {
+      angle += step;
+      carousel.style.transform = `rotateY(${angle}deg)`;
+    });
+
+    
+  </script>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+         <div class="container"><p class="m-0 text-center text-white">Contact me: catherinets064@gmail.com</p></div><br>
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; catherinets064@gmail.com 2025</p></div>
+            
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
